@@ -322,7 +322,7 @@
 
 ### 06 · Large-Tank Water Flosser — 大水箱冲牙器 / Profit-Line Launch
 
-- 年份：2024　·　卡片右侧数据：前期 AB 测 / A/B tested　·　图板：2 张
+- 年份：2024　·　卡片右侧数据：前期 AB 测 / A/B tested　·　图板：4 张
 - 卡片副标题 EN：New profit-line SKU · tested before it was drawn
 - 卡片副标题 ZH：冲牙器线利润款新品 · 先测后做
 
@@ -373,8 +373,10 @@
 
 **图注 / Captions**
 
-1. 承载水箱卖点的产品渲染 / Product render carrying the tank story
-2. 详情页网格 / Detail-page grid
+1. M310 主视觉 ——「冲牙不中断，洁净更畅快」 / M310 key visual — “flossing without interruption”
+2. M4 / M310 参数对比 —— 承载升级理由 / M4 vs M310 — the comparison that carries the upgrade
+3. 300mL 大水箱 —— 把容量放在第一信息层 / 300 mL tank — capacity as the first-layer claim
+4. 1700 次/分钟高频脉冲 —— 技术可视化 / 1,700 pulses per minute, explained visually
 
 ---
 
@@ -770,7 +772,7 @@
 
 ### 13 · AI Visual Workflow — AI 视觉应用 / AI Lab · Midjourney in the studio
 
-- 年份：2024　·　卡片右侧数据：AI Lab / AI Lab　·　图板：5 张
+- 年份：2024　·　卡片右侧数据：AI Lab / AI Lab　·　图板：6 张
 - 卡片副标题 EN：Creative lab + asset library, built into the team workflow
 - 卡片副标题 ZH：创意 AI Lab + 提效 AI 素材库，纳入团队工作流
 
@@ -826,6 +828,7 @@
 3. Lifestyle 场景图 —— 时装杂志感造型 / Lifestyle shot — editorial styling
 4. 产品动态 —— 液体飞溅画面 / Product in motion — liquid splash study
 5. 手持产品场景 / Hand-held product scene
+6. AI Lab 全景 —— 上为创意线，下为提效线 / AI Lab at a glance — creative line above, efficiency line below
 
 ### 14 · WAY TOUCH · 循迹 — 概念包装设计 / Concept Packaging Design
 

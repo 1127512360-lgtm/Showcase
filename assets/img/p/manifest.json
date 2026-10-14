@@ -249,24 +249,36 @@
   "hero": {
    "file": "assets/img/p/water-flosser/hero.jpg",
    "w": 2400,
-   "h": 1451,
-   "bytes": 82566
+   "h": 1350,
+   "bytes": 85978
   },
   "gallery": [
    {
     "file": "assets/img/p/water-flosser/g1.jpg",
-    "w": 2200,
-    "h": 1464,
-    "bytes": 445275
+    "w": 898,
+    "h": 1690,
+    "bytes": 125472
    },
    {
     "file": "assets/img/p/water-flosser/g2.jpg",
-    "w": 2200,
-    "h": 1330,
-    "bytes": 77380
+    "w": 948,
+    "h": 1502,
+    "bytes": 128967
+   },
+   {
+    "file": "assets/img/p/water-flosser/g3.jpg",
+    "w": 894,
+    "h": 1376,
+    "bytes": 100143
+   },
+   {
+    "file": "assets/img/p/water-flosser/g4.jpg",
+    "w": 894,
+    "h": 1664,
+    "bytes": 186933
    }
   ],
-  "heroLuma": 247.6,
+  "heroLuma": 247.8,
   "heroTone": "light"
  },
  "gift-box": {
@@ -640,7 +652,7 @@
    "file": "assets/img/p/ai-workflow/hero.jpg",
    "w": 2400,
    "h": 1350,
-   "bytes": 159024
+   "bytes": 280535
   },
   "gallery": [
    {
@@ -656,10 +668,10 @@
     "bytes": 123378
    },
    {
-    "file": "assets/img/p/ai-workflow/g3.jpg",
-    "w": 1228,
-    "h": 1644,
-    "bytes": 143190
+    "file": "assets/img/p/ai-workflow/g2.jpg",
+    "w": 2200,
+    "h": 1327,
+    "bytes": 258963
    },
    {
     "file": "assets/img/p/ai-workflow/g4.jpg",
@@ -672,9 +684,15 @@
     "w": 1242,
     "h": 1660,
     "bytes": 263420
+   },
+   {
+    "file": "assets/img/p/ai-workflow/g6.jpg",
+    "w": 1352,
+    "h": 2200,
+    "bytes": 289094
    }
   ],
-  "heroLuma": 178.4,
+  "heroLuma": 175.3,
   "heroTone": "light"
  },
  "way-touch": {

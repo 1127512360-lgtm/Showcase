@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Binbin Zhao — Visual Designer &amp; Design Lead</title>
+<meta name="description" content="Binbin Zhao — visual designer and design lead. Seven years in consumer electronics and FMCG: brand visuals, e-commerce campaigns, packaging and the systems behind them. 赵彬彬 / 视觉设计师 · 设计负责人。">
+<meta name="theme-color" content="#f4f3f1">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Binbin Zhao — Visual Designer &amp; Design Lead">
+<meta property="og:description" content="Selected work 2019—2026. Brand visuals, e-commerce campaigns, packaging.">
+<meta property="og:image" content="assets/img/hero/hero-01.jpg">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/img/hero/hero-01.jpg" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- 记住语言选择，避免刷新后闪动 -->
+<script>
+  try {
+    var l = localStorage.getItem('pf-lang');
+    if (l === 'zh' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l === 'zh' ? 'zh-CN' : 'en');
+    }
+  } catch (e) {}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#work">Skip to works</a>
+<div class="progress" aria-hidden="true"></div>
+
+<!-- ===================== 顶栏：品牌左 / 所在地 / 导航右 ===================== -->
+<header class="hdr">
+  <div class="hdr__in">
+    <div class="hdr__left">
+      <a class="hdr__brand" href="#top">
+        <span class="hdr__mark" aria-hidden="true"></span>
+        BINBIN ZHAO
+      </a>
+      <span class="locale">
+        <span class="i18n-en">Guangdong, China</span>
+        <span class="i18n-zh">广东 · 中国</span>
+      </span>
+    </div>
+
+    <nav class="hdr__nav" aria-label="Main">
+      <a href="#work" data-opt>Work</a>
+      <a href="#profile" data-opt>Profile</a>
+      <a href="#contact">Contact</a>
+      <button class="lang" type="button" data-lang-toggle title="Switch language / 切换语言">
+        <span data-lang-btn="en">EN</span><b>/</b><span data-lang-btn="zh">中文</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== 01 首屏 · 方案 A =====================
+       深色底 + 居中方图 + 文字退到四角，不再压图
+       · 7 张封面轮播（交叉淡入 + 缓慢推近），点图进入对应项目
+       · 滚动鼠标：方图放大到铺满整屏
+       · 背景辉光取当前图片的平均色，随轮播变化
+       ▸ 换图 / 换顺序 / 换链接：work/hero.config.mjs → node work/prep-hero.mjs
+  ============================================================ -->
+  <section class="hero hero--a" data-hero data-hero-a data-light-header data-tone="dark">
+    <div class="heroA">
+      <span class="heroA__glow" aria-hidden="true"></span>
+
+      <div class="heroA__media" data-hero-media>
+        <span class="heroA__slides" data-hero-slides>
+          <a class="heroA__link is-active" href="work/ifa.html"
+             data-name-en="MERCUSYS IFA" data-name-zh="IFA 展会视觉" data-cursor="Open project">
+            <img class="heroA__img is-active" src="assets/img/hero/hero-01.jpg" width="2560" height="1438"
+                 alt="MERCUSYS IFA booth exterior render" data-tone="dark" data-glow="rgba(48,13,6,0.52)"
+                 fetchpriority="high" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/gift-box.html"
+             data-name-en="Gift Boxes" data-name-zh="礼盒设计" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-02.jpg" width="2560" height="1282"
+                 alt="Gift-box range for the festival nodes" data-tone="light" data-glow="rgba(167,162,164,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/yang-mi.html"
+             data-name-en="Yang Mi" data-name-zh="代言人视觉 · 杨幂" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-03.jpg" width="1920" height="1080"
+                 alt="Yang Mi announcement key visual" data-tone="dark" data-glow="rgba(94,66,46,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/sakyproral.html"
+             data-name-en="SAKYPRORAL" data-name-zh="品牌视觉 · 出海" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-04.jpg" width="2254" height="1266"
+                 alt="SAKYPRORAL overseas brand visual" data-tone="dark" data-glow="rgba(35,67,139,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/dual-camera.html"
+             data-name-en="Dual-Lens Camera" data-name-zh="产品视觉 · 双目摄像头" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-05.jpg" width="2560" height="1657"
+                 alt="Dual-lens camera launch visual" data-tone="dark" data-glow="rgba(46,48,49,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/ai-workflow.html"
+             data-name-en="AI Lab" data-name-zh="AI Lab Lifestyle" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-06.jpg" width="1242" height="1660"
+                 alt="AI Lab lifestyle shot" data-tone="light" data-glow="rgba(117,121,126,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+          <a class="heroA__link" href="work/design-management.html"
+             data-name-en="Design Management" data-name-zh="设计管理知识沉淀" data-cursor="Open project">
+            <img class="heroA__img" src="assets/img/hero/hero-07.jpg" width="1242" height="1660"
+                 alt="Design competency model" data-tone="dark" data-glow="rgba(82,88,95,0.52)"
+                 loading="lazy" decoding="async">
+          </a>
+        </span>
+      </div>
+
+      <div class="heroA__lead">
+        <p class="heroA__eyebrow">
+          Binbin Zhao <span class="heroA__sep">—</span>
+          <span class="heroA__who">Visual Designer · Design Lead</span>
+        </p>
+        <p>
+          <span class="i18n-en">Seven years turning product strategy into visuals that ship —
+            from the first key visual to the last asset in the system.</span>
+          <span class="i18n-zh">七年时间把产品策略变成能落地的视觉：
+            从第一张主视觉，到系统里最后一份素材。</span>
+        </p>
+      </div>
+
+      <div class="heroA__meta">
+        <span class="hero__dots" data-hero-dots>
+              <button type="button" class="is-active" aria-label="Slide 1"></button>
+              <button type="button" aria-label="Slide 2"></button>
+              <button type="button" aria-label="Slide 3"></button>
+              <button type="button" aria-label="Slide 4"></button>
+              <button type="button" aria-label="Slide 5"></button>
+              <button type="button" aria-label="Slide 6"></button>
+              <button type="button" aria-label="Slide 7"></button>
+        </span>
+        <span data-hero-count>01 / 07</span>
+        <a class="heroA__proj" href="work/ifa.html" data-hero-name data-cursor="Open project">
+          <span class="i18n-en">MERCUSYS IFA</span><span class="i18n-zh">IFA 展会视觉</span>
+        </a>
+      </div>
+
+      <ul class="heroA__caps">
+        <li><span class="i18n-en">E-commerce campaigns</span><span class="i18n-zh">电商全案</span></li>
+        <li><span class="i18n-en">Packaging</span><span class="i18n-zh">包装设计</span></li>
+        <li><span class="i18n-en">Brand visuals</span><span class="i18n-zh">品牌视觉</span></li>
+        <li><span class="i18n-en">Product imagery</span><span class="i18n-zh">产品场景图</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== 02 作品 =====================
+       ▸ 15 件作品，瀑布流；文案与图片来自《作品集-2026-7月》PDF
+       ▸ 改内容：work/projects.data.mjs → node work/build-index.mjs outputs/index.html
+  ==================================================== -->
+  <section class="works" id="work">
+
+    <div class="wrap">
+      <header class="sec-head" data-reveal>
+        <div class="sec-head__row">
+          <p class="dot">01 — Selected Work</p>
+          <p class="meta">15 projects · 4 categories</p>
+        </div>
+        <h2 class="mask"><span>Selected work,<br>2019—2026.</span></h2>
+        <p class="sec-head__note">
+          <span class="i18n-en">
+            Fifteen projects across brand identity, product visuals and campaign work —
+            the thinking that travels from market data to the shelf, and the systems that keep it consistent.
+          </span>
+          <span class="i18n-zh">
+            十五件作品，覆盖品牌形象、产品视觉与营销设计：
+            从市场数据推导到货架的完整过程，以及让它们保持一致的规范体系。
+          </span>
+        </p>
+        <a class="link sec-head__link" href="#index">Index <i aria-hidden="true">↓</i></a>
+      </header>
+    </div>
+
+    <div class="wrap--grid">
+      <div class="masonry" data-masonry>
+
+        <a class="card" href="work/shuke-30.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.8557">
+            <span class="card__par" data-parallax="12">
+              <img src="assets/img/p/shuke-30/cover.jpg" width="1800" height="970"
+                   alt="Shuke 3.0 — Brand Visual Upgrade" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Brand Design</span><span class="i18n-zh">品牌设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Shuke 3.0</h3>
+            <span class="card__year"><span class="i18n-en">+15% home CTR</span><span class="i18n-zh">首页点击率 +15%</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">Shuke Brand 3.0 · brand positioning, key visuals, VI manual</span><span class="i18n-zh">舒客品牌 3.0 视觉升级 · 品牌定位、关键画面、VI 手册</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/sakyproral.html" data-reveal data-cursor="View project" style="--d:60ms">
+          <figure class="card__media" style="--ar:0.9985">
+            <span class="card__par" data-parallax="14">
+              <img src="assets/img/p/sakyproral/cover.jpg" width="1318" height="1320"
+                   alt="SAKYPRORAL — Zero-to-One Overseas Identity" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Brand Design</span><span class="i18n-zh">品牌设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">SAKYPRORAL</h3>
+            <span class="card__year"><span class="i18n-en">$1M+ in year one</span><span class="i18n-zh">上市首年 100 万美金</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">0-1 overseas brand identity · DTC &amp; shelf e-commerce</span><span class="i18n-zh">0-1 品牌出海视觉建立 · DTC 与货架电商视觉</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/g5-pro.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.7822">
+            <span class="card__par" data-parallax="16">
+              <img src="assets/img/p/g5-pro/cover.jpg" width="1800" height="1010"
+                   alt="G5 Pro — Electric Toothbrush Launch" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Product Visual Design</span><span class="i18n-zh">产品视觉设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">G5 Pro</h3>
+            <span class="card__year"><span class="i18n-en">¥290M+ GMV</span><span class="i18n-zh">GMV 2.9 亿+</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">S-tier launch · visual project management &amp; detail pages</span><span class="i18n-zh">S 级单品孵化 · 视觉项目管理与详情页体系</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/dual-camera.html" data-reveal data-cursor="View project" style="--d:180ms">
+          <figure class="card__media" style="--ar:1.2105">
+            <span class="card__par" data-parallax="18">
+              <img src="assets/img/p/dual-camera/cover.jpg" width="1800" height="1487"
+                   alt="Dual-Lens Camera — Product Page &amp; Lifestyle" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Product Visual Design</span><span class="i18n-zh">产品视觉设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Dual-Lens Camera</h3>
+            <span class="card__year"><span class="i18n-en">2K · dual lens</span><span class="i18n-zh">2K 双目画质</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">New camera · Eastern Europe lifestyle direction</span><span class="i18n-zh">新品摄像头 · 东欧市场生活化视觉方向</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/wifi-6.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.7493">
+            <span class="card__par" data-parallax="12">
+              <img src="assets/img/p/wifi-6/cover.jpg" width="1800" height="1029"
+                   alt="AX3000 Wi-Fi 6 — Router Launch Page" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Product Visual Design</span><span class="i18n-zh">产品视觉设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">AX3000 Wi-Fi 6</h3>
+            <span class="card__year"><span class="i18n-en">AX3000</span><span class="i18n-zh">AX3000</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">New router · claim-led detail page and mobile adaptation</span><span class="i18n-zh">新品路由器 · 卖点导向详情页与移动端适配</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/water-flosser.html" data-reveal data-cursor="View project" style="--d:60ms">
+          <figure class="card__media" style="--ar:0.7845">
+            <span class="card__par" data-parallax="14">
+              <img src="assets/img/p/water-flosser/cover.jpg" width="1114" height="1420"
+                   alt="Large-Tank Water Flosser — Profit-Line Launch" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Product Visual Design</span><span class="i18n-zh">产品视觉设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Large-Tank Water Flosser</h3>
+            <span class="card__year"><span class="i18n-en">A/B tested</span><span class="i18n-zh">前期 AB 测</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">New profit-line SKU · tested before it was drawn</span><span class="i18n-zh">冲牙器线利润款新品 · 先测后做</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/gift-box.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.8000">
+            <span class="card__par" data-parallax="16">
+              <img src="assets/img/p/gift-box/cover.jpg" width="1800" height="1000"
+                   alt="Gift Box Campaign — Festival Gift Sets" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Gift Box Campaign</h3>
+            <span class="card__year"><span class="i18n-en">¥36.6M GMV</span><span class="i18n-zh">GMV 3,660 万+</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">Qixi / 618 / Double 11 gift boxes · flank strategy</span><span class="i18n-zh">七夕 / 618 / 双 11 礼盒 · 侧面突围策略</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/ifa.html" data-reveal data-cursor="View project" style="--d:180ms">
+          <figure class="card__media" style="--ar:1.5056">
+            <span class="card__par" data-parallax="18">
+              <img src="assets/img/p/ifa/cover.jpg" width="1620" height="1076"
+                   alt="MERCUSYS IFA — Exhibition Visual &amp; Booth Design" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">MERCUSYS IFA</h3>
+            <span class="card__year"><span class="i18n-en">Booth · flyer · brand symbol</span><span class="i18n-zh">展台 · 单页 · 品牌符号</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">MERCUSYS × IFA · booth visual, flyer system and brand symbol</span><span class="i18n-zh">MERCUSYS × IFA 展会 · 展台视觉、单页体系与品牌符号</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/xiao-zhan.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:0.7500">
+            <span class="card__par" data-parallax="12">
+              <img src="assets/img/p/xiao-zhan/cover.jpg" width="750" height="1000"
+                   alt="Xiao Zhan — Global Brand Ambassador · Shuke" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Xiao Zhan</h3>
+            <span class="card__year"><span class="i18n-en">4B+ impressions</span><span class="i18n-zh">曝光 40 亿+</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">Xiao Zhan × Shuke · announcement KV, social assets, retail rollout</span><span class="i18n-zh">肖战 × 舒客 · 官宣主视觉、社交物料与终端落地</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/muzhicheng.html" data-reveal data-cursor="View project" style="--d:60ms">
+          <figure class="card__media" style="--ar:0.7500">
+            <span class="card__par" data-parallax="14">
+              <img src="assets/img/p/muzhicheng/cover.jpg" width="888" height="1184"
+                   alt="Mu Zhicheng — Youth Brand Ambassador · Shuke" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Mu Zhicheng</h3>
+            <span class="card__year"><span class="i18n-en">265M impressions</span><span class="i18n-zh">曝光 2.65 亿</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">MZC × Shuke · “朝朝「穆穆」” portrait set, poster and retail assets</span><span class="i18n-zh">穆祉丞 × 舒客 ·「朝朝『穆穆』舒展笑颜」人像素材、海报与终端物料</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/yang-mi.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:0.7500">
+            <span class="card__par" data-parallax="16">
+              <img src="assets/img/p/yang-mi/cover.jpg" width="1350" height="1800"
+                   alt="Yang Mi — Global Chief Brand Ambassador · SheYeah" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Yang Mi</h3>
+            <span class="card__year"><span class="i18n-en">¥51M+ in 18 days</span><span class="i18n-zh">官宣期销售额 5100 万+</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">SheYeah × Yang Mi · “穿上野心 ME 本千金” announcement system</span><span class="i18n-zh">小野和子 × 杨幂 ·「穿上野心 ME 本千金」官宣视觉体系</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/li-jiaqi.html" data-reveal data-cursor="View project" style="--d:180ms">
+          <figure class="card__media" style="--ar:1.7613">
+            <span class="card__par" data-parallax="18">
+              <img src="assets/img/p/li-jiaqi/cover.jpg" width="1800" height="1022"
+                   alt="Li Jiaqi × Double 11 — Livestream Collaboration" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Marketing Design</span><span class="i18n-zh">营销设计</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Li Jiaqi × Double 11</h3>
+            <span class="card__year"><span class="i18n-en">¥23M+ GMV</span><span class="i18n-zh">GMV 2,300 万+</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">All Girls’ Offer → Double 11 opening slot</span><span class="i18n-zh">《所有女生的 OFFER》→ 双 11 爆发日首日坑位</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/ai-workflow.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.6575">
+            <span class="card__par" data-parallax="12">
+              <img src="assets/img/p/ai-workflow/cover.jpg" width="1800" height="1086"
+                   alt="AI Visual Workflow — AI Lab · Midjourney in the studio" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Other Projects</span><span class="i18n-zh">其他项目</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">AI Visual Workflow</h3>
+            <span class="card__year"><span class="i18n-en">AI Lab</span><span class="i18n-zh">AI Lab</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">Creative lab + asset library, built into the team workflow</span><span class="i18n-zh">创意 AI Lab + 提效 AI 素材库，纳入团队工作流</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/way-touch.html" data-reveal data-cursor="View project" style="--d:60ms">
+          <figure class="card__media" style="--ar:0.7802">
+            <span class="card__par" data-parallax="14">
+              <img src="assets/img/p/way-touch/cover.jpg" width="1800" height="2307"
+                   alt="WAY TOUCH · 循迹 — Concept Packaging Design" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Other Projects</span><span class="i18n-zh">其他项目</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">WAY TOUCH · 循迹</h3>
+            <span class="card__year"><span class="i18n-en">SPARK Platinum</span><span class="i18n-zh">SPARK 铂金奖</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">Accessible packaging concept · IDC &amp; SPARK awarded</span><span class="i18n-zh">无障碍包装概念 · IDC 与 SPARK 获奖作品</span>
+            </p>
+          </div>
+        </a>
+
+        <a class="card" href="work/design-management.html" data-reveal data-cursor="View project">
+          <figure class="card__media" style="--ar:1.7893">
+            <span class="card__par" data-parallax="16">
+              <img src="assets/img/p/design-management/cover.jpg" width="1800" height="1006"
+                   alt="Design Management — Systems &amp; People" loading="lazy" decoding="async">
+            </span>
+            <span class="card__badge"><span class="i18n-en">Other Projects</span><span class="i18n-zh">其他项目</span></span>
+          </figure>
+          <div class="card__info">
+            <h3 class="card__title">Design Management</h3>
+            <span class="card__year"><span class="i18n-en">Team of 4</span><span class="i18n-zh">管理 4 人团队</span></span>
+            <p class="card__meta">
+              <span class="i18n-en">How the team works: craft, translation, systems</span><span class="i18n-zh">团队如何工作：专业、翻译、系统</span>
+            </p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 03 作品清单（可删） ===================== -->
+  <section class="wrap index-list" id="index" aria-label="Project index">
+    <div class="sec-head__row" style="padding-block:14px;border-top:1px solid var(--line)">
+      <p class="dot">Index</p>
+      <p class="meta">Click to open</p>
+    </div>
+
+    <div class="index-cat">
+      <p class="dot">Brand Design / 品牌设计</p>
+      <p class="meta">02</p>
+    </div>
+      <a class="index-list__row" href="work/shuke-30.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">01</span>
+        <span class="index-list__name">Shuke 3.0
+          <small><span class="i18n-en">Brand Visual Upgrade</span><span class="i18n-zh">舒客品牌 3.0 视觉升级</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">+15% home CTR</span><span class="i18n-zh">首页点击率 +15%</span></span>
+      </a>
+      <a class="index-list__row" href="work/sakyproral.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">02</span>
+        <span class="index-list__name">SAKYPRORAL
+          <small><span class="i18n-en">Zero-to-One Overseas Identity</span><span class="i18n-zh">0-1 品牌出海视觉建立</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">$1M+ in year one</span><span class="i18n-zh">上市首年 100 万美金</span></span>
+      </a>
+
+    <div class="index-cat">
+      <p class="dot">Product Visual Design / 产品视觉设计</p>
+      <p class="meta">04</p>
+    </div>
+      <a class="index-list__row" href="work/g5-pro.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">03</span>
+        <span class="index-list__name">G5 Pro
+          <small><span class="i18n-en">Electric Toothbrush Launch</span><span class="i18n-zh">G5 Pro 电动牙刷</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">¥290M+ GMV</span><span class="i18n-zh">GMV 2.9 亿+</span></span>
+      </a>
+      <a class="index-list__row" href="work/dual-camera.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">04</span>
+        <span class="index-list__name">Dual-Lens Camera
+          <small><span class="i18n-en">Product Page &amp; Lifestyle</span><span class="i18n-zh">双目摄像头</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">2K · dual lens</span><span class="i18n-zh">2K 双目画质</span></span>
+      </a>
+      <a class="index-list__row" href="work/wifi-6.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">05</span>
+        <span class="index-list__name">AX3000 Wi-Fi 6
+          <small><span class="i18n-en">Router Launch Page</span><span class="i18n-zh">Wi-Fi 6 路由器</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">AX3000</span><span class="i18n-zh">AX3000</span></span>
+      </a>
+      <a class="index-list__row" href="work/water-flosser.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">06</span>
+        <span class="index-list__name">Large-Tank Water Flosser
+          <small><span class="i18n-en">Profit-Line Launch</span><span class="i18n-zh">大水箱冲牙器</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">A/B tested</span><span class="i18n-zh">前期 AB 测</span></span>
+      </a>
+
+    <div class="index-cat">
+      <p class="dot">Marketing Design / 营销设计</p>
+      <p class="meta">06</p>
+    </div>
+      <a class="index-list__row" href="work/gift-box.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">07</span>
+        <span class="index-list__name">Gift Box Campaign
+          <small><span class="i18n-en">Festival Gift Sets</span><span class="i18n-zh">舒客礼盒项目</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">¥36.6M GMV</span><span class="i18n-zh">GMV 3,660 万+</span></span>
+      </a>
+      <a class="index-list__row" href="work/ifa.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">08</span>
+        <span class="index-list__name">MERCUSYS IFA
+          <small><span class="i18n-en">Exhibition Visual &amp; Booth Design</span><span class="i18n-zh">IFA 展会视觉与展台设计</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">Booth · flyer · brand symbol</span><span class="i18n-zh">展台 · 单页 · 品牌符号</span></span>
+      </a>
+      <a class="index-list__row" href="work/xiao-zhan.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">09</span>
+        <span class="index-list__name">Xiao Zhan
+          <small><span class="i18n-en">Global Brand Ambassador · Shuke</span><span class="i18n-zh">舒客全球品牌代言人</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">4B+ impressions</span><span class="i18n-zh">曝光 40 亿+</span></span>
+      </a>
+      <a class="index-list__row" href="work/muzhicheng.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">10</span>
+        <span class="index-list__name">Mu Zhicheng
+          <small><span class="i18n-en">Youth Brand Ambassador · Shuke</span><span class="i18n-zh">舒客青春代言人</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">265M impressions</span><span class="i18n-zh">曝光 2.65 亿</span></span>
+      </a>
+      <a class="index-list__row" href="work/yang-mi.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">11</span>
+        <span class="index-list__name">Yang Mi
+          <small><span class="i18n-en">Global Chief Brand Ambassador · SheYeah</span><span class="i18n-zh">小野和子全球首席品牌代言人</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">¥51M+ in 18 days</span><span class="i18n-zh">官宣期销售额 5100 万+</span></span>
+      </a>
+      <a class="index-list__row" href="work/li-jiaqi.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">12</span>
+        <span class="index-list__name">Li Jiaqi × Double 11
+          <small><span class="i18n-en">Livestream Collaboration</span><span class="i18n-zh">李佳琦合作项目</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">¥23M+ GMV</span><span class="i18n-zh">GMV 2,300 万+</span></span>
+      </a>
+
+    <div class="index-cat">
+      <p class="dot">Other Projects / 其他项目</p>
+      <p class="meta">03</p>
+    </div>
+      <a class="index-list__row" href="work/ai-workflow.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">13</span>
+        <span class="index-list__name">AI Visual Workflow
+          <small><span class="i18n-en">AI Lab · Midjourney in the studio</span><span class="i18n-zh">AI 视觉应用</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">AI Lab</span><span class="i18n-zh">AI Lab</span></span>
+      </a>
+      <a class="index-list__row" href="work/way-touch.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">14</span>
+        <span class="index-list__name">WAY TOUCH · 循迹
+          <small><span class="i18n-en">Concept Packaging Design</span><span class="i18n-zh">概念包装设计</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">SPARK Platinum</span><span class="i18n-zh">SPARK 铂金奖</span></span>
+      </a>
+      <a class="index-list__row" href="work/design-management.html" data-reveal data-cursor="Open">
+        <span class="index-list__no">15</span>
+        <span class="index-list__name">Design Management
+          <small><span class="i18n-en">Systems &amp; People</span><span class="i18n-zh">设计管理</span></small>
+        </span>
+        <span class="index-list__tag"><span class="i18n-en">Team of 4</span><span class="i18n-zh">管理 4 人团队</span></span>
+      </a>
+  </section>
+
+  <!-- ===================== 04 简介（内容取自简历，已译成英文） ===================== -->
+  <section class="wrap" id="profile">
+
+    <div class="sec-head__row" style="margin-bottom:0">
+      <p class="dot">02 — Profile</p>
+      <p class="meta">Guangdong, China</p>
+    </div>
+
+    <div class="about__statement" data-reveal>
+      <p>
+        <span class="i18n-en">I&rsquo;m Binbin Zhao — a <span class="accent-face">visual designer
+          and design lead</span> who turns product strategy into visuals that ship.</span>
+        <span class="i18n-zh">我是赵彬彬 —— 把产品策略转译成可落地视觉的
+          <span class="accent-face">设计师与设计负责人</span>。</span>
+      </p>
+    </div>
+
+    <div class="faq-row" data-reveal>
+      <p class="dot">Belief</p>
+      <div class="faq-row__body">
+        <div class="i18n-en">
+          <p>Seven years of a double background: four years hands-on in visual design, three
+             years managing design teams. I&rsquo;ve worked deep in consumer electronics and
+             FMCG — from TP-LINK&rsquo;s global product lines to Shuke&rsquo;s oral-care brand.</p>
+          <p>My strength is zero-to-one: giving a new product a visual language and a reusable
+             system — sales-point hierarchy, key visuals, detail pages, short-video and
+             livestream assets — then pushing reuse past 70% across channels. One launch I led
+             went from nothing to ¥120M GMV in eight months, landing top three in its category,
+             and cut production cost 25% through asset standardisation.</p>
+          <p>As a lead I build process as much as artwork: cross-team workflows, component
+             libraries (50+ modules), small-scale AB tests before rollout, and design manuals
+             that survive handover.</p>
+        </div>
+        <div class="i18n-zh">
+          <p>7 年经验设计管理者，4 年视觉设计执行 + 3 年设计管理双背景，深耕消费电子与快消领域。
+             服务过 TP-LINK 全球产品线与舒客口腔护理品牌，具备品牌意识、审美与创意能力，
+             善于沟通，有充足的上下游对接与资源整合经验。</p>
+          <p>擅长从 0-1 孵化爆品：为新品建立「市场数据 - 用户画像 - 卖点分层」的设计策略模型，
+             主导全渠道视觉统一（详情页 / 短视频 / 直播素材 / KOL 内容），素材复用率达 70%。
+             主导的单品上市 8 个月 GMV 突破 1.2 亿，进入类目 TOP3，并通过素材标准化设计成本降低 25%。</p>
+          <p>作为设计负责人，我主导跨部门流程与规范建设：电商设计组件库（50+ 模块）、
+             落地前的小范围 AB 测试规则，以及能真正交接下去的规范化设计手册，
+             推动团队复用率与协作效率提升。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-row" data-reveal>
+      <p class="dot">Practice</p>
+      <div class="about__aside">
+        <!-- ▸ 替换：个人照片（建议 1200×1500，竖版） -->
+        <figure class="portrait">
+          <img src="assets/img/portrait.jpg" width="1200" height="1500"
+               alt="Binbin Zhao — portrait" loading="lazy" decoding="async">
+        </figure>
+
+        <dl class="facts">
+          <div>
+            <dt>Focus</dt>
+            <dd class="i18n-en">Brand visuals · E-commerce campaigns · Packaging · Product imagery</dd>
+            <dd class="i18n-zh">品牌视觉 · 电商全案 · 包装设计 · 产品场景图</dd>
+          </div>
+          <div>
+            <dt>Experience</dt>
+            <dd class="i18n-en">7 years — 4 hands-on, 3 leading design teams</dd>
+            <dd class="i18n-zh">7 年 —— 4 年视觉执行 + 3 年带团队</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd class="i18n-en">Photoshop · Illustrator · Premiere · KeyShot · Blender · Midjourney</dd>
+            <dd class="i18n-zh">Ps · Ai · Pr · Keyshot · Blender · Midjourney</dd>
+          </div>
+          <div>
+            <dt>Recognition</dt>
+            <dd class="i18n-en">2024 Shuke “Golden Bull Award” (company&rsquo;s highest honour) — First Prize;
+              China Resources Brand Identity Design Competition, packaging — Second Prize</dd>
+            <dd class="i18n-zh">2024 舒客「金牛奖」（公司最高奖项）一等奖；
+              华润品牌形象设计大赛 包装设计组 二等奖</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd class="i18n-en">Guangzhou Academy of Fine Arts — Information Design, 2015—2019</dd>
+            <dd class="i18n-zh">广州美术学院 信息设计专业 2015—2019</dd>
+          </div>
+          <div>
+            <dt>Based in</dt>
+            <dd class="i18n-en">Guangdong, China — working with teams worldwide</dd>
+            <dd class="i18n-zh">广东 · 中国 —— 可与各地团队远程协作</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 05 服务过的品牌 ===================== -->
+  <section class="wrap clients">
+    <div class="sec-head__row" style="margin-bottom:0">
+      <p class="dot">Brands</p>
+      <p class="meta">Products &amp; brands worked on</p>
+    </div>
+    <!-- ▸ 替换：换成真实品牌 / 客户，想放 LOGO 就把 <span> 换成 <img> -->
+    <!-- 名单依据作品集 PDF（普联技术 TP-LINK、水星 MERCUSYS、舒客 SAKY PRO、
+         出海品牌 SAKYPRORAL）与「首屏-封面」里的 小野和子 × 杨幂 KV -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>TP-LINK</span><span>MERCUSYS</span><span>Shuke 舒客</span>
+        <span>SAKY PRO</span><span>SAKYPRORAL</span><span>小野和子</span>
+        <span>TP-LINK</span><span>MERCUSYS</span><span>Shuke 舒客</span>
+        <span>SAKY PRO</span><span>SAKYPRORAL</span><span>小野和子</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 06 联系 ===================== -->
+  <section class="contact" id="contact">
+    <div class="wrap contact__in">
+      <div data-reveal>
+        <p class="dot" style="margin-bottom:18px">
+          <span class="i18n-en">Open to conversations &amp; collaborations</span>
+          <span class="i18n-zh">欢迎交流与合作</span>
+        </p>
+        <a class="contact__mail" href="mailto:1127512360@qq.com"><span>1127512360@qq.com</span></a>
+        <a class="contact__tel" href="tel:+8615603072965">Phone +86 15603072965</a>
+      </div>
+
+      <div class="contact__links" data-reveal>
+        <a href="tel:+8615603072965">Phone</a>
+        <a href="mailto:1127512360@qq.com">Email</a>
+        <!-- ▸ 替换：作品平台主页链接 -->
+        <a href="https://www.zcool.com.cn/work/ZNjY3NjkyODA=.html" target="_blank" rel="noopener">ZCOOL 站酷</a>
+        <a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener">Xiaohongshu</a>
+        <span>WeChat — ZtoBee</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== 页脚 ===================== -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div class="ftr__lead-wrap">
+        <p class="ftr__lead">
+          <span class="i18n-en">Bring the ideas.</span>
+          <span class="i18n-zh">把想法带来。</span>
+        </p>
+        <a class="ftr__mail" href="mailto:1127512360@qq.com">1127512360@qq.com</a>
+      </div>
+
+      <nav class="ftr__col" aria-label="Sitemap">
+        <p class="dot">Sitemap</p>
+        <a href="#top">Home</a>
+        <a href="#work">Work</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <nav class="ftr__col" aria-label="Connect">
+        <p class="dot">Connect</p>
+        <a href="tel:+8615603072965">+86 15603072965</a>
+        <a href="mailto:1127512360@qq.com">Email</a>
+        <a href="https://www.zcool.com.cn/work/ZNjY3NjkyODA=.html" target="_blank" rel="noopener">ZCOOL 站酷</a>
+        <span>WeChat — ZtoBee</span>
+      </nav>
+    </div>
+
+    <div class="ftr__base">
+      <small>© <span data-year>2026</span> Binbin Zhao — All rights reserved.</small>
+      <small class="i18n-en">Based in Guangdong, China.</small>
+      <small class="i18n-zh">常驻广东 · 中国</small>
+      <a class="link" href="#top">Back to top <i aria-hidden="true">↑</i></a>
+    </div>
+  </div>
+</footer>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span data-cursor-label>View</span><i>↗</i></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

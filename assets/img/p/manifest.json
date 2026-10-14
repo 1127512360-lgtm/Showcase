@@ -1,0 +1,746 @@
+{
+ "shuke-30": {
+  "cover": {
+   "file": "assets/img/p/shuke-30/cover.jpg",
+   "w": 1800,
+   "h": 970,
+   "bytes": 405516
+  },
+  "hero": {
+   "file": "assets/img/p/shuke-30/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 209455
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/shuke-30/g1.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 130991
+   },
+   {
+    "file": "assets/img/p/shuke-30/g2.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 190970
+   },
+   {
+    "file": "assets/img/p/shuke-30/g3.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 244694
+   },
+   {
+    "file": "assets/img/p/shuke-30/g4.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 240062
+   },
+   {
+    "file": "assets/img/p/shuke-30/g5.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 510889
+   },
+   {
+    "file": "assets/img/p/shuke-30/g6.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 299726
+   }
+  ],
+  "heroLuma": 98.1,
+  "heroTone": "dark"
+ },
+ "sakyproral": {
+  "cover": {
+   "file": "assets/img/p/sakyproral/cover.jpg",
+   "w": 1318,
+   "h": 1320,
+   "bytes": 134523
+  },
+  "hero": {
+   "file": "assets/img/p/sakyproral/hero.jpg",
+   "w": 2400,
+   "h": 1247,
+   "bytes": 153501
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/sakyproral/g1.jpg",
+    "w": 1040,
+    "h": 1667,
+    "bytes": 74341
+   },
+   {
+    "file": "assets/img/p/sakyproral/g2.jpg",
+    "w": 1022,
+    "h": 1664,
+    "bytes": 138817
+   },
+   {
+    "file": "assets/img/p/sakyproral/g3.jpg",
+    "w": 1200,
+    "h": 628,
+    "bytes": 68951
+   },
+   {
+    "file": "assets/img/p/sakyproral/g4.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 220230
+   },
+   {
+    "file": "assets/img/p/sakyproral/g5.jpg",
+    "w": 2200,
+    "h": 1235,
+    "bytes": 199922
+   },
+   {
+    "file": "assets/img/p/sakyproral/g6.jpg",
+    "w": 2200,
+    "h": 1236,
+    "bytes": 285435
+   }
+  ],
+  "heroLuma": 92.2,
+  "heroTone": "dark"
+ },
+ "g5-pro": {
+  "cover": {
+   "file": "assets/img/p/g5-pro/cover.jpg",
+   "w": 1800,
+   "h": 1010,
+   "bytes": 132459
+  },
+  "hero": {
+   "file": "assets/img/p/g5-pro/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 170888
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/g5-pro/g1.jpg",
+    "w": 1478,
+    "h": 1696,
+    "bytes": 84853
+   },
+   {
+    "file": "assets/img/p/g5-pro/g2.jpg",
+    "w": 848,
+    "h": 1501,
+    "bytes": 182453
+   },
+   {
+    "file": "assets/img/p/g5-pro/g3.jpg",
+    "w": 1442,
+    "h": 1524,
+    "bytes": 57140
+   },
+   {
+    "file": "assets/img/p/g5-pro/g4.jpg",
+    "w": 2200,
+    "h": 1242,
+    "bytes": 402759
+   },
+   {
+    "file": "assets/img/p/g5-pro/g5.jpg",
+    "w": 1674,
+    "h": 1350,
+    "bytes": 125950
+   },
+   {
+    "file": "assets/img/p/g5-pro/g6.jpg",
+    "w": 2200,
+    "h": 1235,
+    "bytes": 161623
+   }
+  ],
+  "heroLuma": 96.4,
+  "heroTone": "dark"
+ },
+ "dual-camera": {
+  "cover": {
+   "file": "assets/img/p/dual-camera/cover.jpg",
+   "w": 1800,
+   "h": 1487,
+   "bytes": 211097
+  },
+  "hero": {
+   "file": "assets/img/p/dual-camera/hero.jpg",
+   "w": 2400,
+   "h": 1443,
+   "bytes": 224529
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/dual-camera/g1.jpg",
+    "w": 1200,
+    "h": 1200,
+    "bytes": 184202
+   },
+   {
+    "file": "assets/img/p/dual-camera/g2.jpg",
+    "w": 2200,
+    "h": 1238,
+    "bytes": 132865
+   },
+   {
+    "file": "assets/img/p/dual-camera/g3.jpg",
+    "w": 2200,
+    "h": 1100,
+    "bytes": 161693
+   },
+   {
+    "file": "assets/img/p/dual-camera/g4.jpg",
+    "w": 2200,
+    "h": 1227,
+    "bytes": 222945
+   }
+  ],
+  "heroLuma": 69.0,
+  "heroTone": "dark"
+ },
+ "wifi-6": {
+  "cover": {
+   "file": "assets/img/p/wifi-6/cover.jpg",
+   "w": 1800,
+   "h": 1029,
+   "bytes": 131790
+  },
+  "hero": {
+   "file": "assets/img/p/wifi-6/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 187983
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/wifi-6/g1.jpg",
+    "w": 492,
+    "h": 1025,
+    "bytes": 79090
+   },
+   {
+    "file": "assets/img/p/wifi-6/g2.jpg",
+    "w": 2200,
+    "h": 1465,
+    "bytes": 519055
+   },
+   {
+    "file": "assets/img/p/wifi-6/g3.jpg",
+    "w": 2200,
+    "h": 1493,
+    "bytes": 205705
+   }
+  ],
+  "heroLuma": 21.5,
+  "heroTone": "dark"
+ },
+ "water-flosser": {
+  "cover": {
+   "file": "assets/img/p/water-flosser/cover.jpg",
+   "w": 1114,
+   "h": 1420,
+   "bytes": 51895
+  },
+  "hero": {
+   "file": "assets/img/p/water-flosser/hero.jpg",
+   "w": 2400,
+   "h": 1451,
+   "bytes": 82566
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/water-flosser/g1.jpg",
+    "w": 2200,
+    "h": 1464,
+    "bytes": 445275
+   },
+   {
+    "file": "assets/img/p/water-flosser/g2.jpg",
+    "w": 2200,
+    "h": 1330,
+    "bytes": 77380
+   }
+  ],
+  "heroLuma": 247.6,
+  "heroTone": "light"
+ },
+ "gift-box": {
+  "cover": {
+   "file": "assets/img/p/gift-box/cover.jpg",
+   "w": 1800,
+   "h": 1000,
+   "bytes": 134267
+  },
+  "hero": {
+   "file": "assets/img/p/gift-box/hero.jpg",
+   "w": 2400,
+   "h": 1203,
+   "bytes": 172452
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/gift-box/g1.jpg",
+    "w": 1580,
+    "h": 2444,
+    "bytes": 269927
+   },
+   {
+    "file": "assets/img/p/gift-box/g2.jpg",
+    "w": 1392,
+    "h": 2334,
+    "bytes": 181137
+   },
+   {
+    "file": "assets/img/p/gift-box/g3.jpg",
+    "w": 1220,
+    "h": 1626,
+    "bytes": 135135
+   }
+  ],
+  "heroLuma": 226.9,
+  "heroTone": "light"
+ },
+ "ifa": {
+  "cover": {
+   "file": "assets/img/p/ifa/cover.jpg",
+   "w": 1620,
+   "h": 1076,
+   "bytes": 180199
+  },
+  "hero": {
+   "file": "assets/img/p/ifa/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 140215
+  },
+  "heroLuma": 28.2,
+  "heroTone": "dark",
+  "gallery": [
+   {
+    "file": "assets/img/p/ifa/g1.jpg",
+    "w": 1620,
+    "h": 1076,
+    "bytes": 168606
+   },
+   {
+    "file": "assets/img/p/ifa/g2.jpg",
+    "w": 1166,
+    "h": 1691,
+    "bytes": 207454
+   },
+   {
+    "file": "assets/img/p/ifa/g3.jpg",
+    "w": 2200,
+    "h": 1236,
+    "bytes": 136236
+   },
+   {
+    "file": "assets/img/p/ifa/g4.jpg",
+    "w": 2200,
+    "h": 1087,
+    "bytes": 87559
+   },
+   {
+    "file": "assets/img/p/ifa/g5.jpg",
+    "w": 2200,
+    "h": 1237,
+    "bytes": 166277
+   }
+  ]
+ },
+ "xiao-zhan": {
+  "cover": {
+   "file": "assets/img/p/xiao-zhan/cover.jpg",
+   "w": 750,
+   "h": 1000,
+   "bytes": 98655
+  },
+  "hero": {
+   "file": "assets/img/p/xiao-zhan/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 115708
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/xiao-zhan/g1.jpg",
+    "w": 1638,
+    "h": 912,
+    "bytes": 58655
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g2.jpg",
+    "w": 974,
+    "h": 1382,
+    "bytes": 177090
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g3.jpg",
+    "w": 928,
+    "h": 1588,
+    "bytes": 139410
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g4.jpg",
+    "w": 2200,
+    "h": 2143,
+    "bytes": 229204
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g5.jpg",
+    "w": 1420,
+    "h": 1044,
+    "bytes": 305789
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g6.jpg",
+    "w": 2085,
+    "h": 1390,
+    "bytes": 211027
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g7.jpg",
+    "w": 2000,
+    "h": 2000,
+    "bytes": 147118
+   },
+   {
+    "file": "assets/img/p/xiao-zhan/g8.jpg",
+    "w": 2200,
+    "h": 1203,
+    "bytes": 183977
+   }
+  ],
+  "heroLuma": 222.5,
+  "heroTone": "light"
+ },
+ "muzhicheng": {
+  "cover": {
+   "file": "assets/img/p/muzhicheng/cover.jpg",
+   "w": 888,
+   "h": 1184,
+   "bytes": 159532
+  },
+  "hero": {
+   "file": "assets/img/p/muzhicheng/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 279948
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/muzhicheng/g1.jpg",
+    "w": 1242,
+    "h": 997,
+    "bytes": 76625
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g2.jpg",
+    "w": 1080,
+    "h": 1442,
+    "bytes": 97898
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g3.jpg",
+    "w": 1772,
+    "h": 2362,
+    "bytes": 298025
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g4.jpg",
+    "w": 2200,
+    "h": 1233,
+    "bytes": 212633
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g5.jpg",
+    "w": 1897,
+    "h": 1049,
+    "bytes": 208904
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g6.jpg",
+    "w": 1825,
+    "h": 1033,
+    "bytes": 238947
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g7.jpg",
+    "w": 2200,
+    "h": 2716,
+    "bytes": 665206
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g8.jpg",
+    "w": 1125,
+    "h": 1371,
+    "bytes": 206179
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g9.jpg",
+    "w": 1125,
+    "h": 1371,
+    "bytes": 211254
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g10.jpg",
+    "w": 1125,
+    "h": 850,
+    "bytes": 89341
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g11.jpg",
+    "w": 1179,
+    "h": 2556,
+    "bytes": 229013
+   },
+   {
+    "file": "assets/img/p/muzhicheng/g12.jpg",
+    "w": 1179,
+    "h": 2556,
+    "bytes": 288984
+   }
+  ],
+  "heroLuma": 180.8,
+  "heroTone": "light"
+ },
+ "yang-mi": {
+  "cover": {
+   "file": "assets/img/p/yang-mi/cover.jpg",
+   "w": 1350,
+   "h": 1800,
+   "bytes": 411570
+  },
+  "hero": {
+   "file": "assets/img/p/yang-mi/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 330240
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/yang-mi/g1.jpg",
+    "w": 1080,
+    "h": 1920,
+    "bytes": 300053
+   },
+   {
+    "file": "assets/img/p/yang-mi/g2.jpg",
+    "w": 1440,
+    "h": 1920,
+    "bytes": 306328
+   },
+   {
+    "file": "assets/img/p/yang-mi/g3.jpg",
+    "w": 1440,
+    "h": 1920,
+    "bytes": 215820
+   },
+   {
+    "file": "assets/img/p/yang-mi/g4.jpg",
+    "w": 1440,
+    "h": 1920,
+    "bytes": 375842
+   },
+   {
+    "file": "assets/img/p/yang-mi/g5.jpg",
+    "w": 1440,
+    "h": 1920,
+    "bytes": 360817
+   },
+   {
+    "file": "assets/img/p/yang-mi/g6.jpg",
+    "w": 2142,
+    "h": 2856,
+    "bytes": 435698
+   },
+   {
+    "file": "assets/img/p/yang-mi/g7.jpg",
+    "w": 2142,
+    "h": 2856,
+    "bytes": 741516
+   },
+   {
+    "file": "assets/img/p/yang-mi/g8.jpg",
+    "w": 1705,
+    "h": 2855,
+    "bytes": 433811
+   },
+   {
+    "file": "assets/img/p/yang-mi/g9.jpg",
+    "w": 1080,
+    "h": 1440,
+    "bytes": 366532
+   },
+   {
+    "file": "assets/img/p/yang-mi/g10.jpg",
+    "w": 1179,
+    "h": 1564,
+    "bytes": 182237
+   }
+  ],
+  "heroLuma": 98.2,
+  "heroTone": "dark"
+ },
+ "li-jiaqi": {
+  "cover": {
+   "file": "assets/img/p/li-jiaqi/cover.jpg",
+   "w": 1800,
+   "h": 1022,
+   "bytes": 258408
+  },
+  "hero": {
+   "file": "assets/img/p/li-jiaqi/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 349659
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/li-jiaqi/g1.jpg",
+    "w": 1179,
+    "h": 1558,
+    "bytes": 231786
+   },
+   {
+    "file": "assets/img/p/li-jiaqi/g2.jpg",
+    "w": 1179,
+    "h": 1554,
+    "bytes": 143896
+   },
+   {
+    "file": "assets/img/p/li-jiaqi/g3.jpg",
+    "w": 738,
+    "h": 443,
+    "bytes": 51598
+   },
+   {
+    "file": "assets/img/p/li-jiaqi/g4.jpg",
+    "w": 1044,
+    "h": 1798,
+    "bytes": 231434
+   }
+  ],
+  "heroLuma": 100.1,
+  "heroTone": "dark"
+ },
+ "ai-workflow": {
+  "cover": {
+   "file": "assets/img/p/ai-workflow/cover.jpg",
+   "w": 1800,
+   "h": 1086,
+   "bytes": 231562
+  },
+  "hero": {
+   "file": "assets/img/p/ai-workflow/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 159024
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/ai-workflow/g1.jpg",
+    "w": 2098,
+    "h": 1176,
+    "bytes": 203816
+   },
+   {
+    "file": "assets/img/p/ai-workflow/g2.jpg",
+    "w": 1724,
+    "h": 1178,
+    "bytes": 123378
+   },
+   {
+    "file": "assets/img/p/ai-workflow/g3.jpg",
+    "w": 1228,
+    "h": 1644,
+    "bytes": 143190
+   },
+   {
+    "file": "assets/img/p/ai-workflow/g4.jpg",
+    "w": 1242,
+    "h": 1660,
+    "bytes": 226984
+   },
+   {
+    "file": "assets/img/p/ai-workflow/g5.jpg",
+    "w": 1242,
+    "h": 1660,
+    "bytes": 263420
+   }
+  ],
+  "heroLuma": 178.4,
+  "heroTone": "light"
+ },
+ "way-touch": {
+  "cover": {
+   "file": "assets/img/p/way-touch/cover.jpg",
+   "w": 1800,
+   "h": 2307,
+   "bytes": 466332
+  },
+  "hero": {
+   "file": "assets/img/p/way-touch/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 395554
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/way-touch/g1.jpg",
+    "w": 797,
+    "h": 1001,
+    "bytes": 42030
+   },
+   {
+    "file": "assets/img/p/way-touch/g2.jpg",
+    "w": 730,
+    "h": 1001,
+    "bytes": 32235
+   },
+   {
+    "file": "assets/img/p/way-touch/g3.jpg",
+    "w": 2200,
+    "h": 3499,
+    "bytes": 801799
+   }
+  ],
+  "heroLuma": 156.7,
+  "heroTone": "light"
+ },
+ "design-management": {
+  "cover": {
+   "file": "assets/img/p/design-management/cover.jpg",
+   "w": 1800,
+   "h": 1006,
+   "bytes": 86898
+  },
+  "hero": {
+   "file": "assets/img/p/design-management/hero.jpg",
+   "w": 2400,
+   "h": 1350,
+   "bytes": 115144
+  },
+  "gallery": [
+   {
+    "file": "assets/img/p/design-management/g1.jpg",
+    "w": 2200,
+    "h": 1392,
+    "bytes": 174465
+   },
+   {
+    "file": "assets/img/p/design-management/g2.jpg",
+    "w": 2200,
+    "h": 1229,
+    "bytes": 105990
+   }
+  ],
+  "heroLuma": 18.6,
+  "heroTone": "dark"
+ }
+}

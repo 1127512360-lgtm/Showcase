@@ -32,6 +32,37 @@
 <a class="skip" href="#work">Skip to works</a>
 <div class="progress" aria-hidden="true"></div>
 
+<!-- ===================== 进场加载动画（版本 2 · 无限卷轴） =====================
+     黑底 + 四周个人信息 + 作品图无限卷动（3 秒）+ 稀疏彩色圆点，
+     播完淡出并移除节点。同一个会话只播一次；系统开「减少动态效果」时直接跳过；
+     想强制看一次：在地址后加 ?intro=1（例：index.html?intro=1）
+     ▸ 改时长 / 圆点 / 图片：assets/js/intro.js · 样式：style.css 第 16 节
+     ▸ JS 没加载时的兜底：下面这段 <noscript> 会把遮罩藏掉，绝不挡首页
+======================================================================= -->
+<div class="intro" id="intro" aria-hidden="true">
+  <span class="intro__info intro__info--tl intro__info--name">Bria Zhao</span>
+  <span class="intro__info intro__info--tr">
+    <span class="i18n-en">Visual designer · Design lead</span>
+    <span class="i18n-zh">视觉设计师 · 设计负责人</span>
+  </span>
+  <span class="intro__info intro__info--ml">
+    <span class="i18n-en">Portfolio</span>
+    <span class="i18n-zh">作品集</span>
+  </span>
+  <span class="intro__info intro__info--mr">Guangdong, China</span>
+  <span class="intro__info intro__info--bl intro__info--accent">1127512360@qq.com</span>
+  <span class="intro__info intro__info--br">ZCOOL 站酷 · WeChat ZtoBee</span>
+  <span class="intro__rule intro__rule--t"></span>
+  <span class="intro__rule intro__rule--b"></span>
+  <div class="intro__dots" data-intro-dots></div>
+  <div class="intro__stage">
+    <span class="intro__glow"></span>
+    <div data-intro-track></div>
+  </div>
+  <div class="intro__bar"><span class="intro__fill"></span></div>
+</div>
+<noscript><style>.intro { display: none !important; }</style></noscript>
+
 <!-- ===================== 顶栏：品牌左 / 所在地 / 导航右 ===================== -->
 <header class="hdr">
   <div class="hdr__in">
@@ -764,5 +795,6 @@
 <div class="cursor" id="cursor" aria-hidden="true"><span data-cursor-label>View</span><i>↗</i></div>
 
 <script src="assets/js/main.js" defer></script>
+<script src="assets/js/intro.js" defer></script>
 </body>
 </html>

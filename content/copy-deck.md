@@ -265,7 +265,7 @@
 
 ### 05 · AX3000 Wi-Fi 6 — Wi-Fi 6 路由器 / Router Launch Page
 
-- 年份：2024　·　卡片右侧数据：AX3000 / AX3000　·　图板：3 张
+- 年份：2024　·　卡片右侧数据：AX3000 / AX3000　·　图板：4 张
 - 卡片副标题 EN：New router · claim-led detail page and mobile adaptation
 - 卡片副标题 ZH：新品路由器 · 卖点导向详情页与移动端适配
 
@@ -316,9 +316,10 @@
 
 **图注 / Captions**
 
-1. 以品牌辉光为底的产品主视觉 / Product KV built on the brand glow
-2. 详情页网格 —— 一张卡片一个卖点 / Detail-page grid — one claim per card
-3. 详情页 UI 展示墙 —— 一屏一个卖点 / Launch-page UI wall — one claim per screen
+1. 详情页总览 —— 产品图精修 · 场景合成 · 整体视觉设计 / Detail-page overview — retouching, scene compositing, one visual system
+2. 整体布局 Part Typeset —— 首屏 / 对比页 / 卖点页 / 注释页 / Part typeset — the four page types the detail page is built from
+3. 详情页模块与移动端适配 / Modules and mobile adaptation
+4. 详情页成品 —— 从首屏到注释页 / The finished detail pages, end to end
 
 ### 06 · Large-Tank Water Flosser — 大水箱冲牙器 / Profit-Line Launch
 
@@ -772,7 +773,7 @@
 
 ### 13 · AI Visual Workflow — AI 视觉应用 / AI Lab · Midjourney in the studio
 
-- 年份：2024　·　卡片右侧数据：AI Lab / AI Lab　·　图板：6 张
+- 年份：2024　·　卡片右侧数据：AI Lab / AI Lab　·　图板：5 张
 - 卡片副标题 EN：Creative lab + asset library, built into the team workflow
 - 卡片副标题 ZH：创意 AI Lab + 提效 AI 素材库，纳入团队工作流
 
@@ -825,10 +826,9 @@
 
 1. AI 生成的品牌手册封面 —— 小野和子 / AI-generated brand book cover — SheYeah
 2. Lifestyle 场景图 —— 人物与产品 / Lifestyle shot — character with product
-3. Lifestyle 场景图 —— 时装杂志感造型 / Lifestyle shot — editorial styling
-4. 产品动态 —— 液体飞溅画面 / Product in motion — liquid splash study
-5. 手持产品场景 / Hand-held product scene
-6. AI Lab 全景 —— 上为创意线，下为提效线 / AI Lab at a glance — creative line above, efficiency line below
+3. 产品动态 —— 液体飞溅画面 / Product in motion — liquid splash study
+4. 手持产品场景 / Hand-held product scene
+5. AI Lab 全景 —— 上为创意线，下为提效线 / AI Lab at a glance — creative line above, efficiency line below
 
 ### 14 · WAY TOUCH · 循迹 — 概念包装设计 / Concept Packaging Design
 

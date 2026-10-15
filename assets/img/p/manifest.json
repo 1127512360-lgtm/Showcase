@@ -207,8 +207,8 @@
   "cover": {
    "file": "assets/img/p/wifi-6/cover.jpg",
    "w": 1800,
-   "h": 1029,
-   "bytes": 131790
+   "h": 1299,
+   "bytes": 290056
   },
   "hero": {
    "file": "assets/img/p/wifi-6/hero.jpg",
@@ -219,21 +219,27 @@
   "gallery": [
    {
     "file": "assets/img/p/wifi-6/g1.jpg",
-    "w": 492,
-    "h": 1025,
-    "bytes": 79090
+    "w": 1184,
+    "h": 2200,
+    "bytes": 288018
    },
    {
     "file": "assets/img/p/wifi-6/g2.jpg",
     "w": 2200,
-    "h": 1465,
-    "bytes": 519055
+    "h": 1067,
+    "bytes": 120661
    },
    {
     "file": "assets/img/p/wifi-6/g3.jpg",
+    "w": 2064,
+    "h": 1326,
+    "bytes": 305615
+   },
+   {
+    "file": "assets/img/p/wifi-6/g4.jpg",
     "w": 2200,
-    "h": 1493,
-    "bytes": 205705
+    "h": 1102,
+    "bytes": 401305
    }
   ],
   "heroLuma": 21.5,
@@ -663,30 +669,24 @@
    },
    {
     "file": "assets/img/p/ai-workflow/g2.jpg",
-    "w": 1724,
-    "h": 1178,
-    "bytes": 123378
-   },
-   {
-    "file": "assets/img/p/ai-workflow/g2.jpg",
     "w": 2200,
     "h": 1327,
     "bytes": 258963
    },
    {
-    "file": "assets/img/p/ai-workflow/g4.jpg",
+    "file": "assets/img/p/ai-workflow/g3.jpg",
     "w": 1242,
     "h": 1660,
     "bytes": 226984
    },
    {
-    "file": "assets/img/p/ai-workflow/g5.jpg",
+    "file": "assets/img/p/ai-workflow/g4.jpg",
     "w": 1242,
     "h": 1660,
     "bytes": 263420
    },
    {
-    "file": "assets/img/p/ai-workflow/g6.jpg",
+    "file": "assets/img/p/ai-workflow/g5.jpg",
     "w": 1352,
     "h": 2200,
     "bytes": 289094

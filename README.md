@@ -1,4 +1,4 @@
-# Binbin Zhao — Portfolio
+# Bria Zhao — Portfolio
 
 赵彬彬 · 视觉设计师 / 设计负责人 · 个人作品集网站
 
